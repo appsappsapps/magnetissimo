@@ -56,9 +56,9 @@ defmodule Magnetissimo.Crawlers.NyaaPantsu do
   end
 
   defp rss do
-    Logger.debug("[NyaaPantsu] Downloading url: https://nyaa.pantsu.cat/feed")
+    Logger.debug("[NyaaPantsu] Downloading url: https://nyaa.net/feed")
 
-    "https://nyaa.pantsu.cat/feed"
+    "https://nyaa.net/feed"
     |> HTTPoison.get!()
     |> Map.get(:body)
   end

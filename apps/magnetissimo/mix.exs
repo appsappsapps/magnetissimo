@@ -39,6 +39,7 @@ defmodule Magnetissimo.MixProject do
       {:ecto_sql, "~> 3.0"},
       {:postgrex, ">= 0.0.0"},
       {:jason, "~> 1.0"},
+      {:hackney, github: "benoitc/hackney", override: true},
       {:httpoison, "~> 1.5"},
       {:sweet_xml, "~> 0.6.6"},
       {:floki, "~> 0.20.4"},
